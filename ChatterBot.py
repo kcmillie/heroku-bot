@@ -3,8 +3,7 @@ import tweepy
 import json
 import time
 
-from config import consumer_key, consumer_secret, access_token,
-access_token_secret
+from config import consumer_key, consumer_secret, access_token, access_token_secret
 
 # Twitter API Keys
 consumer_key = consumer_key
@@ -29,7 +28,7 @@ def TweetOut(tweet_number):
 counter = 0
 
 # Infinite loop
-while(counter < 50):
+while(counter < 10):
 
     # Call the TweetQuotes function and specify the tweet number
     TweetOut(counter)
