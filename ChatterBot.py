@@ -4,13 +4,13 @@ import json
 import time
 
 from config import consumer_key, consumer_secret, access_token, access_token_secret
-
+'''
 from os import environ
 from flask import Flask
 
 app = Flask(__name__)
 app.run(environ.get('PORT'))
-
+'''
 # Twitter API Keys
 consumer_key = consumer_key
 consumer_secret = consumer_secret
